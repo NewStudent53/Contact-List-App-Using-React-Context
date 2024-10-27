@@ -1,0 +1,39 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .contact-image {
+    font-size: 40px;
+  }
+  
+  .contact-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+  }
+  
+  .contact-actions {
+    display: flex;
+    gap: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+  }
+  
